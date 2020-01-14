@@ -1,0 +1,15 @@
+.login_form{
+    margin: 0.1rem;
+}
+
+.root{
+    flex-grow: 1;
+}
+
+.form_grid{
+    min-height: 100vh;
+}
+
+.App-logo {
+    height: 30vmin;
+}

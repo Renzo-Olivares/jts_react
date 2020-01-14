@@ -1,0 +1,14 @@
+.root{
+    flex-grow: 1;
+}
+
+.App-logo {
+    height: 30vmin;
+}
+
+.company{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    alignment: center;
+}

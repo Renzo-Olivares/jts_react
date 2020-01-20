@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a3dd82-9ed5-4ca5-ac5c-62832f6f6420" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/components/JobListHeader/JobListHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/App/components/JobPanel/JobPanel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/~App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/~App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/~App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/~App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/~App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/~App.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -40,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -50,10 +48,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\renzo\WebstormProjects\jts_react\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/App/components/JobListHeader" />
+      <recent name="$PROJECT_DIR$/src/components/App/components" />
       <recent name="C:\Users\renzo\WebstormProjects\jts_react\src\components\Login" />
     </key>
   </component>
@@ -102,6 +102,7 @@
       <workItem from="1576647236275" duration="21581000" />
       <workItem from="1577167446766" duration="12494000" />
       <workItem from="1577215826901" duration="6805000" />
+      <workItem from="1579418834499" duration="13408000" />
     </task>
     <task id="LOCAL-00001" summary="clear readme">
       <created>1573874727000</created>
@@ -134,22 +135,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="clear readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="629" height="170" key="GridCell.Tab.0.bottom" timestamp="1577221306782">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state x="2895" y="466" width="642" height="626" key="#npm_start" timestamp="1579418874338">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2895" y="466" width="642" height="626" key="#npm_start/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579418874338" />
+    <state x="2800" y="330" width="860" height="814" key="CommitChangelistDialog2" timestamp="1579478981243">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2800" y="330" width="860" height="814" key="CommitChangelistDialog2/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579478981243" />
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom" timestamp="1579472688266">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="629" height="170" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1577221306782" />
-    <state width="629" height="170" key="GridCell.Tab.0.center" timestamp="1577221306782">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579472688266" />
+    <state width="1377" height="258" key="GridCell.Tab.0.center" timestamp="1579472688266">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="629" height="170" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1577221306782" />
-    <state width="629" height="170" key="GridCell.Tab.0.left" timestamp="1577221306781">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1377" height="258" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579472688266" />
+    <state width="1377" height="258" key="GridCell.Tab.0.left" timestamp="1579472688266">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="629" height="170" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1577221306781" />
-    <state width="629" height="170" key="GridCell.Tab.0.right" timestamp="1577221306782">
-      <screen x="0" y="0" width="1280" height="720" />
+    <state width="1377" height="258" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579472688266" />
+    <state width="1377" height="258" key="GridCell.Tab.0.right" timestamp="1579472688266">
+      <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state width="629" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1577221306782" />
+    <state width="1377" height="258" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579472688266" />
+    <state x="3226" y="463" key="run.anything.popup" timestamp="1579476092812">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="3226" y="463" key="run.anything.popup/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579476092812" />
     <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1577169747894">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

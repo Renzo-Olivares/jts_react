@@ -3,7 +3,7 @@ import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
 
 const guideProps = {
-    bgcolor: 'primary.main',
+    bgcolor: '#2962ff',
     borderColor: 'text.primary',
     m: 1,
     border: 1,
@@ -11,7 +11,7 @@ const guideProps = {
 };
 
 const guideItemProps = {
-    bgcolor: 'secondary.main',
+    bgcolor: '#b0bec5',
     borderColor: 'text.primary',
     m: 1,
     border: 1,
@@ -19,7 +19,7 @@ const guideItemProps = {
 };
 
 const addItemProps = {
-    bgcolor: 'secondary.main',
+    bgcolor: '#b0bec5',
     borderColor: 'text.primary',
     m: 1,
     border: 1,

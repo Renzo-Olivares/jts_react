@@ -9,7 +9,7 @@ import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import {createStyles, makeStyles, Theme} from "@material-ui/core/styles";
 
 const expansionMainItemProps = {
-    borderColor: 'text.primary',
+    borderColor: '#2962ff',
     m: 1,
     border: 1,
     style: { width: '8.75rem', height: '1.5rem'},
@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme: Theme) =>
     createStyles({
         root: {
             width: '70rem',
+            backgroundColor: '#b0bec5',
         },
         heading: {
             fontSize: theme.typography.pxToRem(15),

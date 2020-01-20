@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a3dd82-9ed5-4ca5-ac5c-62832f6f6420" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/App/components/JobListHeader/JobListHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App/components/JobPanel/JobPanel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/~App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/~App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/~App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/components/JobListHeader/JobListHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/components/JobListHeader/JobListHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/components/JobPanel/JobPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/components/JobPanel/JobPanel.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +95,7 @@
       <workItem from="1576647236275" duration="21581000" />
       <workItem from="1577167446766" duration="12494000" />
       <workItem from="1577215826901" duration="6805000" />
-      <workItem from="1579418834499" duration="13408000" />
+      <workItem from="1579418834499" duration="16417000" />
     </task>
     <task id="LOCAL-00001" summary="clear readme">
       <created>1573874727000</created>
@@ -111,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573874727000</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Break up App component into smaller components and cleaned up imports&#10;*JobListHeader - Rounded header with descriptions for preview of jobpanel&#10;*JobPanel component - expansion panel with job details">
+      <created>1579479435164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579479435165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,17 +132,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="clear readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear readme" />
+    <MESSAGE value="Break up App component into smaller components and cleaned up imports&#10;*JobListHeader - Rounded header with descriptions for preview of jobpanel&#10;*JobPanel component - expansion panel with job details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Break up App component into smaller components and cleaned up imports&#10;*JobListHeader - Rounded header with descriptions for preview of jobpanel&#10;*JobPanel component - expansion panel with job details" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2895" y="466" width="642" height="626" key="#npm_start" timestamp="1579418874338">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2895" y="466" width="642" height="626" key="#npm_start/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579418874338" />
-    <state x="2800" y="330" width="860" height="814" key="CommitChangelistDialog2" timestamp="1579478981243">
+    <state x="2800" y="330" width="860" height="814" key="CommitChangelistDialog2" timestamp="1579479434930">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2800" y="330" width="860" height="814" key="CommitChangelistDialog2/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579478981243" />
+    <state x="2800" y="330" width="860" height="814" key="CommitChangelistDialog2/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579479434930" />
     <state width="1377" height="258" key="GridCell.Tab.0.bottom" timestamp="1579472688266">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
@@ -163,6 +164,10 @@
     </state>
     <state width="629" height="170" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1577221306782" />
     <state width="1377" height="258" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579472688266" />
+    <state x="2830" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1579479506174">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2830" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1440/0.360.1920.1080@1920.0.2560.1440" timestamp="1579479506174" />
     <state x="3226" y="463" key="run.anything.popup" timestamp="1579476092812">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
